@@ -1,0 +1,36 @@
+.tabs{
+    width: 100%;
+    height: auto;
+    padding-top:190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+.active{
+    border-bottom: solid 1px grey;
+}
+.tabs_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.tabs_div li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.tabs_div li a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}

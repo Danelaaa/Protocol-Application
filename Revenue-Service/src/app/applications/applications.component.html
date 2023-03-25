@@ -1,0 +1,10 @@
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+<div class="protocol_div">
+    <div class="protocols" *ngFor="let card of cardsArray">
+        <div class="protocol" *ngIf="searchText ==='' || card.header.toLowerCase().includes(searchText)" (click)="alert()">
+                <img src="assets/abode.png" alt="">
+                <p>{{card.header}}</p>
+                <span>{{card.date}}</span>
+        </div>   
+    </div>  
+</div>

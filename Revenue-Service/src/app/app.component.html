@@ -1,0 +1,3 @@
+<app-tabs [tabsArray]="tabs" (onTabChange)="tabChange($event)"></app-tabs>
+<app-protocols *ngIf="activatedTabIndex == 0"></app-protocols>
+<app-applications *ngIf="activatedTabIndex == 1"></app-applications>
